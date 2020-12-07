@@ -81,8 +81,8 @@ class CloseButton extends Button {
       event.preventDefault();
       event.stopPropagation();
       this.trigger('click');
-    } else {
-      // Pass keypress handling up for unsupported keys
+      // Pass keydown up for unsupported keys, except Tab for focus trapping
+    } else if (!keycode.isEventKey(event, 'Tab')) {
       super.handleKeyDown(event);
     }
   }
