@@ -487,13 +487,7 @@ body.vjs-full-window {
   border: 0.06666em solid #fff;
   background-color: #2B333F;
   background-color: rgba(43, 51, 63, 0.7);
-  -webkit-border-radius: 0.3em;
-  -moz-border-radius: 0.3em;
   border-radius: 0.3em;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  -ms-transition: all 0.4s;
-  -o-transition: all 0.4s;
   transition: all 0.4s;
 }
 .vjs-big-play-centered .vjs-big-play-button {
@@ -508,10 +502,6 @@ body.vjs-full-window {
   border-color: #fff;
   background-color: #73859f;
   background-color: rgba(115, 133, 159, 0.5);
-  -webkit-transition: all 0s;
-  -moz-transition: all 0s;
-  -ms-transition: all 0s;
-  -o-transition: all 0s;
   transition: all 0s;
 }
 
@@ -556,7 +546,6 @@ body.vjs-full-window {
 }
 .video-js .vjs-modal-dialog {
   background: rgba(0, 0, 0, 0.8);
-  background: -webkit-linear-gradient(-90deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0));
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0));
   overflow: auto;
 }
@@ -681,10 +670,6 @@ body.vjs-full-window {
 }
 
 .video-js .vjs-menu-button-inline {
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  -ms-transition: all 0.4s;
-  -o-transition: all 0.4s;
   transition: all 0.4s;
   overflow: hidden;
 }
@@ -709,10 +694,6 @@ body.vjs-full-window {
   top: 0;
   padding: 0;
   margin: 0;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  -ms-transition: all 0.4s;
-  -o-transition: all 0.4s;
   transition: all 0.4s;
 }
 
@@ -756,26 +737,15 @@ body.vjs-full-window {
 }
 
 .vjs-has-started .vjs-control-bar {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   visibility: visible;
   opacity: 1;
-  -webkit-transition: visibility 0.1s, opacity 0.1s;
-  -moz-transition: visibility 0.1s, opacity 0.1s;
-  -ms-transition: visibility 0.1s, opacity 0.1s;
-  -o-transition: visibility 0.1s, opacity 0.1s;
   transition: visibility 0.1s, opacity 0.1s;
 }
 
 .vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
   visibility: visible;
   opacity: 0;
-  -webkit-transition: visibility 1s, opacity 1s;
-  -moz-transition: visibility 1s, opacity 1s;
-  -ms-transition: visibility 1s, opacity 1s;
-  -o-transition: visibility 1s, opacity 1s;
   transition: visibility 1s, opacity 1s;
 }
 
@@ -801,10 +771,6 @@ body.vjs-full-window {
   padding: 0;
   height: 100%;
   width: 4em;
-  -webkit-box-flex: none;
-  -moz-box-flex: none;
-  -webkit-flex: none;
-  -ms-flex: none;
   flex: none;
 }
 
@@ -840,18 +806,8 @@ body.vjs-full-window {
 
 .video-js .vjs-progress-control {
   cursor: pointer;
-  -webkit-box-flex: auto;
-  -moz-box-flex: auto;
-  -webkit-flex: auto;
-  -ms-flex: auto;
   flex: auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
   min-width: 4em;
   touch-action: none;
@@ -866,13 +822,7 @@ body.vjs-full-window {
 }
 
 .vjs-liveui .vjs-progress-control {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -881,15 +831,7 @@ body.vjs-full-window {
 }
 
 .video-js .vjs-progress-holder {
-  -webkit-box-flex: auto;
-  -moz-box-flex: auto;
-  -webkit-flex: auto;
-  -ms-flex: auto;
   flex: auto;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
   transition: all 0.2s;
   height: 0.3em;
 }
@@ -939,8 +881,6 @@ body.vjs-full-window {
 .video-js .vjs-time-tooltip {
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.8);
-  -webkit-border-radius: 0.3em;
-  -moz-border-radius: 0.3em;
   border-radius: 0.3em;
   color: #000;
   float: right;
@@ -989,10 +929,6 @@ body.vjs-full-window {
 .video-js.vjs-user-inactive .vjs-progress-control .vjs-mouse-display {
   visibility: hidden;
   opacity: 0;
-  -webkit-transition: visibility 1s, opacity 1s;
-  -moz-transition: visibility 1s, opacity 1s;
-  -ms-transition: visibility 1s, opacity 1s;
-  -o-transition: visibility 1s, opacity 1s;
   transition: visibility 1s, opacity 1s;
 }
 
@@ -1016,7 +952,6 @@ body.vjs-full-window {
   /* Safari */
   -webkit-user-select: none;
   /* Konqueror HTML */
-  -khtml-user-select: none;
   /* Firefox */
   -moz-user-select: none;
   /* Internet Explorer/Edge */
@@ -1033,25 +968,16 @@ body.vjs-full-window {
 
 .video-js .vjs-slider:focus {
   text-shadow: 0em 0em 1em white;
-  -webkit-box-shadow: 0 0 1em #fff;
-  -moz-box-shadow: 0 0 1em #fff;
   box-shadow: 0 0 1em #fff;
 }
 
 .video-js .vjs-mute-control {
   cursor: pointer;
-  -webkit-box-flex: none;
-  -moz-box-flex: none;
-  -webkit-flex: none;
-  -ms-flex: none;
   flex: none;
 }
 .video-js .vjs-volume-control {
   cursor: pointer;
   margin-right: 1em;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -1068,20 +994,12 @@ body.vjs-full-window {
 }
 
 .video-js .vjs-volume-panel {
-  -webkit-transition: width 1s;
-  -moz-transition: width 1s;
-  -ms-transition: width 1s;
-  -o-transition: width 1s;
   transition: width 1s;
 }
 .video-js .vjs-volume-panel.vjs-hover .vjs-volume-control, .video-js .vjs-volume-panel:active .vjs-volume-control, .video-js .vjs-volume-panel:focus .vjs-volume-control, .video-js .vjs-volume-panel .vjs-volume-control:active, .video-js .vjs-volume-panel.vjs-hover .vjs-mute-control ~ .vjs-volume-control, .video-js .vjs-volume-panel .vjs-volume-control.vjs-slider-active {
   visibility: visible;
   opacity: 1;
   position: relative;
-  -webkit-transition: visibility 0.1s, opacity 0.1s, height 0.1s, width 0.1s, left 0s, top 0s;
-  -moz-transition: visibility 0.1s, opacity 0.1s, height 0.1s, width 0.1s, left 0s, top 0s;
-  -ms-transition: visibility 0.1s, opacity 0.1s, height 0.1s, width 0.1s, left 0s, top 0s;
-  -o-transition: visibility 0.1s, opacity 0.1s, height 0.1s, width 0.1s, left 0s, top 0s;
   transition: visibility 0.1s, opacity 0.1s, height 0.1s, width 0.1s, left 0s, top 0s;
 }
 .video-js .vjs-volume-panel.vjs-hover .vjs-volume-control.vjs-volume-horizontal, .video-js .vjs-volume-panel:active .vjs-volume-control.vjs-volume-horizontal, .video-js .vjs-volume-panel:focus .vjs-volume-control.vjs-volume-horizontal, .video-js .vjs-volume-panel .vjs-volume-control:active.vjs-volume-horizontal, .video-js .vjs-volume-panel.vjs-hover .vjs-mute-control ~ .vjs-volume-control.vjs-volume-horizontal, .video-js .vjs-volume-panel .vjs-volume-control.vjs-slider-active.vjs-volume-horizontal {
@@ -1091,18 +1009,10 @@ body.vjs-full-window {
 }
 .video-js .vjs-volume-panel.vjs-hover .vjs-volume-control.vjs-volume-vertical, .video-js .vjs-volume-panel:active .vjs-volume-control.vjs-volume-vertical, .video-js .vjs-volume-panel:focus .vjs-volume-control.vjs-volume-vertical, .video-js .vjs-volume-panel .vjs-volume-control:active.vjs-volume-vertical, .video-js .vjs-volume-panel.vjs-hover .vjs-mute-control ~ .vjs-volume-control.vjs-volume-vertical, .video-js .vjs-volume-panel .vjs-volume-control.vjs-slider-active.vjs-volume-vertical {
   left: -3.5em;
-  -webkit-transition: left 0s;
-  -moz-transition: left 0s;
-  -ms-transition: left 0s;
-  -o-transition: left 0s;
   transition: left 0s;
 }
 .video-js .vjs-volume-panel.vjs-volume-panel-horizontal.vjs-hover, .video-js .vjs-volume-panel.vjs-volume-panel-horizontal:active, .video-js .vjs-volume-panel.vjs-volume-panel-horizontal.vjs-slider-active {
   width: 10em;
-  -webkit-transition: width 0.1s;
-  -moz-transition: width 0.1s;
-  -ms-transition: width 0.1s;
-  -o-transition: width 0.1s;
   transition: width 0.1s;
 }
 .video-js .vjs-volume-panel.vjs-volume-panel-horizontal.vjs-mute-toggle-only {
@@ -1113,18 +1023,10 @@ body.vjs-full-window {
   height: 8em;
   width: 3em;
   left: -3000em;
-  -webkit-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s 1s, left 1s 1s, top 1s 1s;
-  -moz-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s 1s, left 1s 1s, top 1s 1s;
-  -ms-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s 1s, left 1s 1s, top 1s 1s;
-  -o-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s 1s, left 1s 1s, top 1s 1s;
   transition: visibility 1s, opacity 1s, height 1s 1s, width 1s 1s, left 1s 1s, top 1s 1s;
 }
 
 .video-js .vjs-volume-panel .vjs-volume-control.vjs-volume-horizontal {
-  -webkit-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s, left 1s 1s, top 1s 1s;
-  -moz-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s, left 1s 1s, top 1s 1s;
-  -ms-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s, left 1s 1s, top 1s 1s;
-  -o-transition: visibility 1s, opacity 1s, height 1s 1s, width 1s, left 1s 1s, top 1s 1s;
   transition: visibility 1s, opacity 1s, height 1s 1s, width 1s, left 1s 1s, top 1s 1s;
 }
 
@@ -1134,10 +1036,6 @@ body.vjs-full-window {
   visibility: visible;
   opacity: 1;
   position: relative;
-  -webkit-transition: none;
-  -moz-transition: none;
-  -ms-transition: none;
-  -o-transition: none;
   transition: none;
 }
 
@@ -1149,9 +1047,6 @@ body.vjs-full-window {
 }
 
 .video-js .vjs-volume-panel {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -1252,18 +1147,8 @@ body.vjs-full-window {
 }
 
 .video-js .vjs-live-control {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: flex-start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: flex-start;
   align-items: flex-start;
-  -webkit-box-flex: auto;
-  -moz-box-flex: auto;
-  -webkit-flex: auto;
-  -ms-flex: auto;
   flex: auto;
   font-size: 1em;
   line-height: 3em;
@@ -1283,10 +1168,6 @@ body.vjs-full-window {
 .video-js .vjs-seek-to-live-control {
   align-items: center;
   cursor: pointer;
-  -webkit-box-flex: none;
-  -moz-box-flex: none;
-  -webkit-flex: none;
-  -ms-flex: none;
   flex: none;
   display: inline-flex;
   height: 100%;
@@ -1323,10 +1204,6 @@ body.vjs-full-window {
 }
 
 .video-js .vjs-time-control {
-  -webkit-box-flex: none;
-  -moz-box-flex: none;
-  -webkit-flex: none;
-  -ms-flex: none;
   flex: none;
   font-size: 1em;
   line-height: 3em;
@@ -1364,10 +1241,6 @@ body.vjs-full-window {
 }
 
 .video-js .vjs-play-control .vjs-icon-placeholder {
-  -webkit-box-flex: none;
-  -moz-box-flex: none;
-  -webkit-flex: none;
-  -ms-flex: none;
   flex: none;
 }
 
@@ -1403,35 +1276,19 @@ body.vjs-full-window {
 }
 
 video::-webkit-media-text-track-display {
-  -moz-transform: translateY(-3em);
-  -ms-transform: translateY(-3em);
-  -o-transform: translateY(-3em);
-  -webkit-transform: translateY(-3em);
   transform: translateY(-3em);
 }
 
 .video-js.vjs-user-inactive.vjs-playing video::-webkit-media-text-track-display {
-  -moz-transform: translateY(-1.5em);
-  -ms-transform: translateY(-1.5em);
-  -o-transform: translateY(-1.5em);
-  -webkit-transform: translateY(-1.5em);
   transform: translateY(-1.5em);
 }
 
 .video-js .vjs-picture-in-picture-control {
   cursor: pointer;
-  -webkit-box-flex: none;
-  -moz-box-flex: none;
-  -webkit-flex: none;
-  -ms-flex: none;
   flex: none;
 }
 .video-js .vjs-fullscreen-control {
   cursor: pointer;
-  -webkit-box-flex: none;
-  -moz-box-flex: none;
-  -webkit-flex: none;
-  -ms-flex: none;
   flex: none;
 }
 .vjs-playback-rate > .vjs-menu-button,
@@ -1496,7 +1353,8 @@ video::-webkit-media-text-track-display {
 .vjs-seeking .vjs-loading-spinner,
 .vjs-waiting .vjs-loading-spinner {
   display: block;
-  animation: vjs-spinner-show 0s linear 0.3s forwards;
+  -webkit-animation: vjs-spinner-show 0s linear 0.3s forwards;
+          animation: vjs-spinner-show 0s linear 0.3s forwards;
 }
 
 .vjs-loading-spinner:before,
@@ -1665,10 +1523,6 @@ video::-webkit-media-text-track-display {
   display: none;
 }
 .video-js:not(.vjs-fullscreen).vjs-layout-x-small.vjs-liveui .vjs-custom-control-spacer, .video-js:not(.vjs-fullscreen).vjs-layout-tiny .vjs-custom-control-spacer {
-  -webkit-box-flex: auto;
-  -moz-box-flex: auto;
-  -webkit-flex: auto;
-  -ms-flex: auto;
   flex: auto;
   display: block;
 }

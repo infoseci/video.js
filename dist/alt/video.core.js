@@ -6463,19 +6463,7 @@
       }
 
       var focusableEls = this.focusableEls_();
-      var activeEl = this.el_.querySelector(':focus');
-      var focusIndex;
-
-      for (var i = 0; i < focusableEls.length; i++) {
-        if (activeEl === focusableEls[i]) {
-          focusIndex = i;
-          break;
-        }
-      }
-
-      if (document.activeElement === this.el_) {
-        focusIndex = 0;
-      }
+      var focusIndex = focusableEls.indexOf(document.activeElement);
 
       if (event.shiftKey && focusIndex === 0) {
         focusableEls[focusableEls.length - 1].focus();
@@ -13803,8 +13791,8 @@
         event.preventDefault();
         event.stopPropagation();
         this.trigger('click');
-      } else {
-        // Pass keypress handling up for unsupported keys
+      } else if (!keycode.isEventKey(event, 'Tab')) {
+        // Pass keypress handling up for unsupported keys, except Tab for focus trapping
         _Button.prototype.handleKeyDown.call(this, event);
       }
     };
